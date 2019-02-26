@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #f1f1f1;
+	color: white;
+}
+
+#top-section{
+	background-image: url(zzz.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	padding: 0 20px;
+	text-transform: uppercase;
+}
+
+#top-section h1{
+	font-family: New times roman;
+	font-size: 9vh;
+	margin-bottom: 25px;
+	box-shadow: 14px 12px 8px black;
+	letter-spacing: 2px;
+}	
+
+#top-section p{
+	font-size: 4vh;
+	font-family: Serif;
+	font-size: 4vh;
+}
+
+#top-section a{
+	text-decoration: none;
+	margin-top: 30px;
+	padding: 4vh;
+	border: 1px solid grey;
+	border-radius: 22px;
+	background-color: #fe840e;
+	color: white;
+	box-shadow: 10px 8px 6px black;
+	font-family: Lucida Console;
+	font-size: 4vh;
+
+}
+
+#top-section a:hover{
+	background-color: black;
+	color: white;
+}
+
+#content{
+	font-size: 20px;
+	font-family: new times roman;
+	text-align: center;
+	background-color: brown;
+
+}
+#content h3{
+	font-size: 4vh;
+}
+
+#content p{
+	font-size: 3vh;
+}
+
+
+#buttom{
+	background-color: brown;
+}
+#buttom img{
+	border: 1px solid #f1f1f1;
+	padding: 7vh;
+	margin: 7vh;
+	background-color: white;
+	transition: all 1s;
+}
+
+#buttom img:hover{
+	transform: scale(1.2);
+}
+
+footer{
+	background-color: #f1f1f1;
+	color: black;
+	font-size: 2vh;
+	text-align: center;
+}
+
+footer a{
+	padding: 14px;
+	background-color: #fe840e;
+	color: white;
+	text-decoration: none;
+	border-radius: 6px;	
+}
+footer a:hover{
+	background-color: black;
+	color: white;
+}
